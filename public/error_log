@@ -1,0 +1,68 @@
+[22-May-2017 22:16:39 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: semrushKey' in /home/scanmage/public_html/app/Component/Sem.php:25
+Stack trace:
+#0 /home/scanmage/public_html/app/Component/Sem.php(25): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/scanmage/...', 25, Array)
+#1 /home/scanmage/public_html/app/Http/Controllers/SemController.php(31): App\Component\Sem->__construct()
+#2 [internal function]: App\Http\Controllers\SemController->process(Object(Illuminate\Http\Request))
+#3 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('process', Array)
+#5 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(204): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App in /home/scanmage/public_html/app/Component/Sem.php on line 25
+[22-May-2017 22:16:39 UTC] PHP Fatal error:  Cannot access empty property in /home/scanmage/public_html/app/Component/Sem.php on line 25
+[22-May-2017 22:18:35 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: semrushKey' in /home/scanmage/public_html/app/Component/Sem.php:25
+Stack trace:
+#0 /home/scanmage/public_html/app/Component/Sem.php(25): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/scanmage/...', 25, Array)
+#1 /home/scanmage/public_html/app/Http/Controllers/SemController.php(31): App\Component\Sem->__construct()
+#2 [internal function]: App\Http\Controllers\SemController->keywords(Object(Illuminate\Http\Request))
+#3 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('keywords', Array)
+#5 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(204): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(A in /home/scanmage/public_html/app/Component/Sem.php on line 25
+[22-May-2017 22:18:35 UTC] PHP Fatal error:  Cannot access empty property in /home/scanmage/public_html/app/Component/Sem.php on line 25
+[22-May-2017 22:21:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/scanmage/public_html/app/Component/Sem.php on line 41
+[22-May-2017 22:22:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/scanmage/public_html/app/Component/Sem.php on line 44
+[22-May-2017 22:30:10 UTC] PHP Fatal error:  Class 'App\Http\Controllers\SemBacklinks' not found in /home/scanmage/public_html/app/Http/Controllers/SemController.php on line 48
+[22-May-2017 22:33:50 UTC] PHP Parse error:  syntax error, unexpected '$backlink' (T_VARIABLE) in /home/scanmage/public_html/app/Component/SemBacklinks.php on line 45
+[22-May-2017 22:36:21 UTC] PHP Fatal error:  Class 'App\Component\arent' not found in /home/scanmage/public_html/app/Component/SemBacklinks.php on line 20
+[22-May-2017 22:38:38 UTC] PHP Parse error:  syntax error, unexpected '$backlink_data' (T_VARIABLE) in /home/scanmage/public_html/app/Component/SemBacklinks.php on line 48
+[22-May-2017 23:31:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /home/scanmage/public_html/app/Component/Seo.php on line 24
+[23-May-2017 00:01:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/scanmage/public_html/app/Component/Seo.php on line 86
+[23-May-2017 00:01:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/scanmage/public_html/app/Component/Seo.php on line 103
+[23-May-2017 00:07:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/scanmage/public_html/app/Component/Seo.php on line 92
+[23-May-2017 00:51:28 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/scanmage/public_html/app/Component/Sem.php on line 69
+[29-May-2017 17:55:42 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/scanmage/public_html/app/Component/Seo.php on line 86
+[29-May-2017 18:05:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\SeoBacklinks' not found in /home/scanmage/public_html/app/Http/Controllers/SeoController.php on line 33
+[29-May-2017 18:06:05 UTC] PHP Fatal error:  Class 'App\Http\Controllers\SeoBacklinks' not found in /home/scanmage/public_html/app/Http/Controllers/SeoController.php on line 33
+[29-May-2017 18:06:39 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/SeoBacklinks.php on line 63
+[29-May-2017 18:07:38 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/Seo.php on line 74
+[29-May-2017 18:08:04 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/SeoBacklinks.php on line 63
+[29-May-2017 18:08:46 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/Seo.php on line 74
+[29-May-2017 18:08:52 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/Seo.php on line 74
+[29-May-2017 18:08:55 UTC] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE) in /home/scanmage/public_html/app/Component/Seo.php on line 74
+[29-May-2017 18:59:57 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/scanmage/public_html/app/Component/Seo.php on line 124
+[29-May-2017 19:10:59 UTC] PHP Parse error:  syntax error, unexpected '$auditRegion' (T_VARIABLE), expecting ')' in /home/scanmage/public_html/app/Component/Seo.php on line 96
+[29-May-2017 19:11:17 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/scanmage/public_html/app/Component/Seo.php on line 130
+[29-May-2017 23:19:21 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: downloaderURL' in /home/scanmage/public_html/app/Component/Magento.php:31
+Stack trace:
+#0 /home/scanmage/public_html/app/Component/Magento.php(31): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/scanmage/...', 31, Array)
+#1 /home/scanmage/public_html/app/Http/Controllers/SeoController.php(42): App\Component\Magento->getMagentoVersion('www.refausa.com')
+#2 [internal function]: App\Http\Controllers\SeoController->process(Object(Illuminate\Http\Request))
+#3 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(55): call_user_func_array(Array, Array)
+#4 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(44): Illuminate\Routing\Controller->callAction('process', Array)
+#5 /home/scanmage/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(204): Illuminate\Routing\ControllerDispatcher->dispatch(Object in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:19:21 UTC] PHP Fatal error:  Cannot access empty property in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:29:34 UTC] PHP Fatal error:  Call to undefined function App\Component\file_get_html() in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:32:07 UTC] PHP Fatal error:  Call to undefined function App\Component\file_get_html() in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:32:19 UTC] PHP Fatal error:  Call to undefined function App\Component\file_get_html() in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:32:22 UTC] PHP Fatal error:  Call to undefined function App\Component\file_get_html() in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[29-May-2017 23:32:54 UTC] PHP Fatal error:  Class 'App\Component\DOMDocument' not found in /home/scanmage/public_html/app/Component/Magento.php on line 33
+[29-May-2017 23:36:49 UTC] PHP Fatal error:  Call to undefined function App\Component\getVersion() in /home/scanmage/public_html/app/Component/Magento.php on line 35
+[29-May-2017 23:51:44 UTC] PHP Parse error:  syntax error, unexpected '$respondCode' (T_VARIABLE) in /home/scanmage/public_html/app/Component/Magento.php on line 31
+[03-Jun-2017 00:42:08 UTC] PHP Fatal error:  Cannot use App\Component\Util as Util because the name is already in use in /home/scanmage/public_html/app/Component/Magento.php on line 11
+[03-Jun-2017 00:42:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/scanmage/public_html/app/Component/Magento.php on line 92
+[03-Jun-2017 00:42:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/scanmage/public_html/app/Component/Magento.php on line 119
+[03-Jun-2017 00:42:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/scanmage/public_html/app/Component/Magento.php on line 119
+[03-Jun-2017 00:43:08 UTC] PHP Fatal error:  Call to undefined function App\Component\getMagento1VersionByDownloader() in /home/scanmage/public_html/app/Component/Magento.php on line 25
+[03-Jun-2017 00:43:45 UTC] PHP Fatal error:  Call to undefined function App\Component\getMagento1VersionByDownloader() in /home/scanmage/public_html/app/Component/Magento.php on line 25
+[03-Jun-2017 00:43:56 UTC] PHP Fatal error:  Call to undefined function App\Component\getMagento1VersionByDownloader() in /home/scanmage/public_html/app/Component/Magento.php on line 25
+[03-Jun-2017 00:44:25 UTC] PHP Fatal error:  Call to undefined function App\Component\getMagento1VersionByHash() in /home/scanmage/public_html/app/Component/Magento.php on line 29
+[03-Jun-2017 17:44:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/scanmage/public_html/app/Component/Security.php on line 60
+[03-Jun-2017 17:44:16 UTC] PHP Fatal error:  Call to undefined function App\Component\_GET() in /home/scanmage/public_html/app/Component/Security.php on line 54
+[03-Jun-2017 17:44:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/scanmage/public_html/app/Component/Security.php on line 54

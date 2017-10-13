@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>MageAudit</title>
+    </head>
+    <body>
+        <div style="margin:auto 30px;text-align:center;">
+            <h1>This is About Page</h1>
+        </div>
+    </body>
+</html>
