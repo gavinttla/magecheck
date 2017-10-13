@@ -1,0 +1,2 @@
+# magecheck
+check magento vulnerability
